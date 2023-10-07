@@ -1,0 +1,148 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/*=============== BASE ===============*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 2em;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.navbar a:hover{
+    background-color: #fcdd44;
+    padding: 1em;
+}
+
+li {
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 81px;
+    width: 100%;
+    background-color: black;
+}
+
+.heading{
+    color: #fcdd44;
+    font-size: 27px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.heading:hover{
+    color: #ff720b;
+}
+
+.nav{
+    display: flex;
+    gap: 3em;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav i{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fcdd44;
+    font-weight: 600;
+}
+
+.Home{
+    background-color: #ff720b;
+    padding: 1em;
+}
+
+.main_section{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_section::before{
+    content: "";
+    background: url(/img/banner-1.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}  
+
+.main_heading{
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: .2em;
+}
+
+.main_heading span{
+    color: #fcdd44;
+}
+
+.second_line{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn1{
+    background: rgba(252, 252, 68, .39) none repeat scroll 0% 0%;
+    border: 1px solid #d2b731;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 40px;
+    margin-top: 15px;
+    transition: all .3s ease;
+}
+
+.btn1:hover{
+    background: rgba(252, 221, 68, 1);
+    color: black;
+}
+
+.line{
+    text-align: center;
+    margin: auto;
+    line-height: 45px;
+}
+
+.footer{
+    background-color: #fcdd44;
+    height: 125px;
+}
+
+.last_line{
+    padding: 3.1em;
+}
+
+.tm_copyright_text{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
